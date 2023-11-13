@@ -1,0 +1,182 @@
+.tabla {
+  width: 1024px;
+  margin: 0px auto 50px auto;
+  border-radius: 15px;
+  border: 1px solid var(--borde-Grilla);
+  border-collapse: collapse;
+  background-color: rgb(250, 250, 250);
+}
+
+thead th {
+  text-align: center;
+  color: var(--titulo-Grilla);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--borde-inferior-Grilla);
+
+}
+
+tbody tr:hover {
+  background-color: rgb(250, 250, 250);
+
+
+}
+
+tbody td {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid var(--borde-inferior-Grilla);
+  padding: 15px 0px;
+  font-size: 12px;
+  vertical-align: top;
+
+}
+
+
+.texto-elecciones-chico {
+  font-size: 12px;
+  color: var(--textos);
+  font-weight: bold;
+}
+
+.texto-path-chico {
+  font-size: 11px;
+  color: var(--celeste);
+}
+
+.mesas {
+  background-color: var(--celeste);
+  border-radius: 5px;
+  margin: 2px;
+  width: 120px;
+  height: 70px;
+  color: #FFF;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.electores {
+  background-color: var(--magenta);
+  border-radius: 5px;
+  margin: 2px;
+  width: 120px;
+  height: 70px;
+  color: #FFF;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.participacion {
+  background-color: var(--morado);
+  border-radius: 5px;
+  margin: 2px;
+  width: 120px;
+  height: 70px;
+  color: #FFF;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.boton-menu-paso {
+  background-color: var(--magenta);
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  width: 70px;
+  text-decoration: none;
+
+}
+
+.boton-menu-paso:hover {
+  background-color: var(--gris-claro);
+}
+
+.boton-menu-generales {
+  background-color: var(--celeste);
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  width: 70px;
+  text-decoration: none;
+  margin: 5px;
+
+}
+
+.boton-menu-generales:hover {
+  background-color: var(--gris-claro);
+
+}
+
+
+.inicio {
+  background-color: var(--gris-claro);
+  border-radius: 5px;
+  padding: 5px;
+  color: #FFF;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  width: 70px;
+  text-decoration: none;
+  margin: 5px;
+  position: absolute;
+  right: 0px;
+
+
+}
+
+.inicio:hover {
+  color: var(--textos);
+}
+
+.datos-generales {
+  display: flex;
+}
+
+.eleccion {
+  width: 100px;
+}
+
+.cont-agrupacion {
+  display: grid;
+  grid-template-rows: 10px 10px;
+  grid-template-columns: 100px 100px ;
+  grid-gap: 5px;
+  overflow-y:scroll ;
+  height:325px;
+  padding: 5px;
+  font-size:10px ;
+  color: var(--textos);
+}
+
+.partido{
+  font-weight: bold;
+}
+
+.votos{
+  grid-column-start: 2; 
+  grid-column-end: 3; 
+}
+
+#sec-titulo {
+  margin-left: 100px;
+}
+
+footer{
+ 
+  position: relative;
+}
